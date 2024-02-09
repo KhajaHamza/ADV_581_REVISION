@@ -16,9 +16,9 @@ Created a new repository on github
 Established connection of local repository to github using the command:(git remote add origin <repository_url>)
 Verify if the connection is established:(git remote -v)
 Then we do a command process to push the files into github after every change in files:
-git add .
-git commit -m "message to be written"
-git push 
+(git add .)
+(git commit -m "message to be written")
+(git push )
 
 git branch (To view which branch we are currently on)
 git checkout <branch_name> (to shift branch) 
