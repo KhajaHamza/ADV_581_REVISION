@@ -1,6 +1,6 @@
 import pytest
 from MathUtils import MathUtils
-class TestMathUtils:
+class MathUtils:
     def test_add(self):
         utils = MathUtils()
         assert utils.add(2, 3) == 5
