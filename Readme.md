@@ -26,6 +26,7 @@ git checkout <branch_name> (to shift branch)
 
 #Installation of Jenkins
 First Check for the availability of JDK,if not,install Jdk version as per the requirements.
+Setup local host:I chose local host 8081
 
 
 #EXECUTION ON JENKINS
