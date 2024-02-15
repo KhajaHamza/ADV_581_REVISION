@@ -25,10 +25,19 @@ git checkout <branch_name> (to shift branch)
 
 
 #Installation of Jenkins
-First Check for the availability of JDK,if not,install Jdk version as per the requirements.
-Setup local host:I chose local host 8081
-
-
+First Check for the availability of JDK,if not,install Jdk version as per the requirements.(JDK 11,17 0r 21)
+Then Install Jenkins from (https://www.jenkins.io/download/),Install an LTS(Long term Support )version.
+Then Install the package and follow the instructions
+Logon Type:Select Run service as LocalSystem
+Setup local host:I chose local host 8081(Test port after it has been assigned)
+Set the JDK path
+Click Next
+Then Finish all the processes
+Unlock Jenkins By the Administrator Password,Copy the password from the file location
+Install Suggested Plugins
+Configure Username,Password and Email address
+Set Instance Congifuration,i.e,Jenkins URL ,Start Jenkins at :(https://localhost:8081/)
+Jenkins is all SetUp.
 #EXECUTION ON JENKINS
 
 Create a new Item
